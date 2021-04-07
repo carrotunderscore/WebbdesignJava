@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+}
+form {
+    text-align:center;
+}
+.rainbow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+}
+.button{
+border-radius: 50%;
+}
