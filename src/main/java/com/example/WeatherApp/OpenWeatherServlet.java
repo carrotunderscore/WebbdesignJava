@@ -96,15 +96,7 @@ public class OpenWeatherServlet extends HttpServlet {
                 "color:blue;" +
                 "padding: 5px;" +
                 "}");
-        /*
-        writer.println("div {" +
-                "  width: 300px;" +
-                "  padding: 50px;" +
-                "  margin: 20px;" +
-                "text-align: center;" +
-                "}");
 
-         */
         writer.println("ul{" +
                 "list-style-type: none;" +
                 "}");
