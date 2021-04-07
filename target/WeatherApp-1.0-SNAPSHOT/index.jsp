@@ -4,6 +4,9 @@
 <html>
 <head>
     <title>JSP - Hello World</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 <style type="text/css">
 
@@ -19,7 +22,9 @@
     <label for="country">Country</label><br>
     <input type="text" id="country" name="country"><br>
 
-    <input type="submit" id="button" name="button" class="button">
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="button">
+        Submit
+    </button>
 </form>
 </body>
 </html>
